@@ -2,7 +2,9 @@
 
 We will generate an animated scene that helps to visualize an audio recording by breaking it into different frequency ranges and applying each range’s amplitude to the movement of an object in the scene. These objects can be, for example, a series of rectangular prisms that stretch proportionally to the amplitude.
 
-![Soundbars](https://raw.githubusercontent.com/cicero-mt/cicero-mt.github.io/master/sound_bars_example.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/cicero-mt/cicero-mt.github.io/master/sound_bars_example.png">
+</div>
 
 ## Goals and Deliverables
 
