@@ -40,6 +40,6 @@ In the case of reaching the optional requirements, we will also include a method
 * Previous assignments and their libraries (regl_1.3.13 & gl_matrix3.2.1)
 
 **Project under developpement by** 
-[Evan Kirby McGregor](https://github.com/EKM224)
-[Ulrich Dah](https://github.com/ulrichdah)
+[Evan Kirby McGregor](https://github.com/EKM224) - 
+[Ulrich Dah](https://github.com/ulrichdah) -
 [Mathieu Bélanger](https://github.com/cicero-mt)
