@@ -33,6 +33,19 @@ In the case of the minimum implementation requirements, we will deliver a video 
 
 In the case of reaching the optional requirements, we will also include a method to input an audio file with options on selecting the desired scene to display.
 
+## Schedule
+
+| Week      | Task        | Subtask | Assigned to |
+|:-------------|:------------------|:------|
+| 1 (24/04 -> 01/05) | Setup of the environment |  |    |
+|                    | Setup of the environment | nice  |
+| 2 (01/05 -> 08/05) | Scene items  |  |    |
+|                    |              |  |    |
+|                    | Data Model |  | |
+|                    |            | Audio decomposition | Mathieu |
+| 3 (08/05 -> 15/05) | Animations |  |    |
+|                    | Colors | | |
+
 ## Ressources
 
 * Course slides: The class concepts will be used so we will use the slides
