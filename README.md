@@ -38,7 +38,7 @@ In the case of reaching the optional requirements, we will also include a method
 | Week      | Task        | Subtask | Assigned to |
 |:-------------|:------------------|:------|
 | 1 (24/04 -> 01/05) | Setup of the environment | Librairies configuration | Evan |
-|                    |                          | Initial scene  |         | Evan |
+|                    |                          | Initial scene            | Evan |
 | 2 (01/05 -> 08/05) | Scene items  | Cubes | Ulrich  |
 |                    |              | Skybox | Ulrich |
 |                    |              | Camera movement | Evan |
