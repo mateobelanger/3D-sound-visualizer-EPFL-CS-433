@@ -37,14 +37,20 @@ In the case of reaching the optional requirements, we will also include a method
 
 | Week      | Task        | Subtask | Assigned to |
 |:-------------|:------------------|:------|
-| 1 (24/04 -> 01/05) | Setup of the environment |  |    |
-|                    | Setup of the environment | nice  |
-| 2 (01/05 -> 08/05) | Scene items  |  |    |
-|                    |              |  |    |
-|                    | Data Model |  | |
-|                    |            | Audio decomposition | Mathieu |
-| 3 (08/05 -> 15/05) | Animations |  |    |
-|                    | Colors | | |
+| 1 (24/04 -> 01/05) | Setup of the environment | Librairies configuration | Evan |
+|                    |                          | Initial scene  |         | Evan |
+| 2 (01/05 -> 08/05) | Scene items  | Cubes | Ulrich  |
+|                    |              | Skybox | Ulrich |
+|                    |              | Camera movement | Evan |
+|                    | Data Model | Audio decomposition  | Mathieu |
+|                    |            | Frequencies grouping and mapping (time series) | Mathieu |
+| 3 (08/05 -> 15/05) | Animations | Cube's movements and colors | Ulrich |
+|                    | Surface shading | Phong implementation | Evan |
+|                    | Colors | Dynamic colors | Mathieu |
+| 4 (15/05 -> 2/05) | Extras | Interactive audio file upload  | Ulrich |
+|                    | Shadows generation | | Mathieu |
+| 5 (22/05 -> 26/05) | Video creation |  |  Evan  |
+|                    | Website update |  |  Mathieu  |
 
 ## Ressources
 
