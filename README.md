@@ -18,7 +18,7 @@ We will generate an animated scene that helps to visualize an audio recording by
 
 ### Optionnal extensions
 
-* Add movement to the scene along with the tempo of the song
+* Add movement to the scene (on a time axis) along with the tempo of the song
 * Dynamic music input: Allow users to upload an audio file and have our program generate the animation
 * Varied Scenes: After creating the scene with rectangular prisms, we can apply the same frequency separation algorithm to the audio file and output a different scene. For example, colored spheres that grow accordingly, or lines that deform. We can also create a flat surface that deforms into mountains with proportionate height to the amplitude.
 * Shadows: We can add shadows to the prisms or other objects in the scene
