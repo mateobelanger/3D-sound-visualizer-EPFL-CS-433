@@ -12,6 +12,7 @@ We will generate an animated scene that helps to visualize an audio recording by
 
 * 3D Music viewer base scene: We should have the scene’s background with all the cubes that will scale based on the music.
 * Cubes scalability based on a pre-defined song: We will attach a small default song to the project. The cubes in the scenes should scale according to that song.
+* Fast fourrier transform algorithm implementation to group the frequencies associated to the audio file
 * Camera movement: The user should be able to move the camera around and to zoom.
 * Cubes color: The cubes’ colors should change depending on their height or the frequency.
 * Phong illumination: The scene should be lit using the Phong illumination model.
@@ -42,7 +43,7 @@ In the case of reaching the optional requirements, we will also include a method
 | 2 (01/05 -> 08/05) | Scene items  | Cubes | Ulrich  |
 |                    |              | Skybox | Ulrich |
 |                    |              | Camera movement | Evan |
-|                    | Data Model | Audio decomposition  | Mathieu |
+|                    | Data Model | Audio decomposition: fast fourrier transform implementation  | Mathieu |
 |                    |            | Frequencies grouping and mapping (time series) | Mathieu |
 | 3 (08/05 -> 15/05) | Animations | Cube's movements and colors | Ulrich |
 |                    | Surface shading | Phong implementation | Evan |
