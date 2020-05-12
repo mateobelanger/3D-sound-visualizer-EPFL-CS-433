@@ -34,6 +34,26 @@ In the case of the minimum implementation requirements, we will deliver a video 
 
 In the case of reaching the optional requirements, we will also include a method to input an audio file with options on selecting the desired scene to display.
 
+## Milestone Report
+
+#### Accomplishments Summary
+
+* Started our project by using our progress from exercise 5.
+* Replaced the solar system with a grid of 16x16 cubes.
+* Added an audio player function
+* Tested animation of cube based on sim_time
+* Added the fast fourier transform algorithm
+* Added the mathJS library for complex number calculations
+* Affect the scale of each cube to the amplitude of a channel
+* Change the cube color based on the scale
+* Added bezier curve camera path.
+
+#### Preliminary Results
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/cicero-mt/cicero-mt.github.io/master/Milestone_Sound_Bars.png">
+</div>
+
 ## Schedule
 
 | Week      | Task        | Subtask | Assigned to |
