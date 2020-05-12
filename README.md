@@ -69,7 +69,7 @@ In the case of reaching the optional requirements, we will also include a method
 |                    | Surface shading | :heavy_check_mark: Phong implementation | Evan |
 |                    | Colors | :heavy_check_mark: Dynamic colors | Mathieu |
 |                    | Website update | :heavy_check_mark: Milestone report update |  Mathieu  |
-|                    | Performance | Being able to play the animation synchronized with the music | Mathieu |
+|                    | Performance issues | Being able to play the animation synchronized with the music | Mathieu |
 | 4 (15/05 -> 2/05) | Extras | Interactive audio file upload  | Ulrich |
 |                   | Extras | Dynamic shapes| Evan |
 |                   | Extras | Shadow generation | Mathieu |
@@ -77,12 +77,6 @@ In the case of reaching the optional requirements, we will also include a method
 
 | 5 (22/05 -> 26/05) | Video creation |  |  Evan  |
 |                    | Website update |  |  Mathieu  |
-
-Syncroniser avec la musique
-Upload une chanson
-Peut-être faire varier les objets 3d pour pas que ca soit juste des cubes
-Clean up aussi vu que c'est un mélange de projet et tp5 en ce moment
-Le mouvement pourrait être amélioré aussi
 
 ## Ressources
 
