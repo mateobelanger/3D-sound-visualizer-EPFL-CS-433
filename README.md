@@ -58,16 +58,16 @@ In the case of reaching the optional requirements, we will also include a method
 
 | Week      | Task        | Subtask | Assigned to |
 |:-------------|:------------------|:------|
-| 1 (24/04 -> 01/05) | Setup of the environment | Librairies configuration | Evan |
-|                    |                          | Initial scene            | Evan |
-| 2 (01/05 -> 08/05) | Scene items  | Cubes | Ulrich  |
-|                    |              | Skybox | Ulrich |
-|                    |              | Camera movement | Evan |
-|                    | Data Model | Audio decomposition: fast fourrier transform implementation  | Mathieu |
-|                    |            | Frequencies grouping and mapping (time series) | Mathieu |
-| 3 (08/05 -> 15/05) | Animations | Cube's movements and colors | Ulrich |
-|                    | Surface shading | Phong implementation | Evan |
-|                    | Colors | Dynamic colors | Mathieu |
+| 1 (24/04 -> 01/05) | Setup of the environment | :heavy_check_mark: Librairies configuration | Evan |
+|                    |                          | :heavy_check_mark: Initial scene            | Evan |
+| 2 (01/05 -> 08/05) | Scene items  | :heavy_check_mark: Cubes | Ulrich  |
+|                    |              | :heavy_check_mark: Skybox | Ulrich |
+|                    |              | :heavy_check_mark: Camera movement | Evan |
+|                    | Data Model | :heavy_check_mark: Audio decomposition: fast fourrier transform implementation  | Mathieu |
+|                    |            | :heavy_check_mark:Frequencies grouping and mapping (time series) | Mathieu |
+| 3 (08/05 -> 15/05) | Animations | :heavy_check_mark: Cube's movements and colors | Ulrich |
+|                    | Surface shading | :heavy_check_mark: Phong implementation | Evan |
+|                    | Colors | :heavy_check_mark: Dynamic colors | Mathieu |
 | 4 (15/05 -> 2/05) | Extras | Interactive audio file upload  | Ulrich |
 |                    | Shadows generation | | Mathieu |
 | 5 (22/05 -> 26/05) | Video creation |  |  Evan  |
