@@ -74,7 +74,6 @@ In the case of reaching the optional requirements, we will also include a method
 |                   | Extras | Dynamic shapes| Evan |
 |                   | Extras | Shadow generation | Mathieu |
 |                   | Cleaning | Cleaning the codebase for final submission | Mathieu |
-
 | 5 (22/05 -> 26/05) | Video creation |  |  Evan  |
 |                    | Website update |  |  Mathieu  |
 
