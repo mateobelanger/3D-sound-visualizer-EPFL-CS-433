@@ -95,6 +95,8 @@ A description of problems encountered and how you tackled them. Please also docu
 
 Your final images, animations, video of your system (whichever is relevant). You can include results that you think show off what you built but that you did not have time to go over on presentation day. If your project is amenable, consider implementing it in WebGL so that you can directly include a running demo in your final website-based report.
 
+[VIEW THE DEMO](./project/index.html)
+
 ### Contributions
 
 **Project developped by** 
