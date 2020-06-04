@@ -69,13 +69,13 @@ In the case of reaching the optional requirements, we will also include a method
 |                    | Surface shading | :heavy_check_mark: Phong implementation | Evan |
 |                    | Colors | :heavy_check_mark: Dynamic colors | Mathieu |
 |                    | Website update | :heavy_check_mark: Milestone report update |  Mathieu  |
-|                    | Performance issues | Being able to play the animation synchronized with the music | Mathieu |
+|                    | Performance issues | :heavy_check_mark: Being able to play the animation synchronized with the music | Mathieu |
 | 4 (15/05 -> 2/05) | Extras | Interactive audio file upload  | Ulrich |
 |                   | Extras | Dynamic shapes| Evan |
 |                   | Extras | Shadow generation | Mathieu |
-|                   | Cleaning | Cleaning the codebase for final submission | Mathieu |
-| 5 (22/05 -> 26/05) | Video creation |  |  Evan  |
-|                    | Website update |  |  Mathieu  |
+|                   | Cleaning | :heavy_check_mark: Cleaning the codebase for final submission | Mathieu |
+| 5 (22/05 -> 26/05) | :heavy_check_mark: Video creation |  |  Evan  |
+|                    | :heavy_check_mark: Website update |  |  Mathieu  |
 
 ## Ressources
 
@@ -83,7 +83,21 @@ In the case of reaching the optional requirements, we will also include a method
 * The Web Audio API: provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio,       create audio visualizations, apply spatial effects (such as panning) and much more.
 * Previous assignments and their libraries (regl_1.3.13 & gl_matrix3.2.1)
 
-**Project under developpement by** 
+## Final Report
+### Abstract 
+Our project originated from the idea of combining our passions for music and for computer science. In the context of computer graphics, this meant deconstructing an audio file using a Fourier transform and rendering a visual representation of the different frequencies. The end result is a web based animation of a pre-selected and pre-loaded mp3 file with cinematic bézier curve camera movement as well as free camera movement and play/pause functionality.
+
+### Technical approach
+A summary of your technical approach, techniques used, algorithms implemented, etc. (use references to papers or other resources for further detail). Highlight how your approach varied from the references used (did you implement a subset, or did you change or enhance anything), the unique decisions you made and why.
+A description of problems encountered and how you tackled them. Please also document any failed experiments/efforts you made.
+
+### Results
+
+Your final images, animations, video of your system (whichever is relevant). You can include results that you think show off what you built but that you did not have time to go over on presentation day. If your project is amenable, consider implementing it in WebGL so that you can directly include a running demo in your final website-based report.
+
+### Contributions
+
+**Project developped by** 
 [Evan Kirby McGregor](https://github.com/EKM224) - 
 [Ulrich Dah](https://github.com/ulrichdah) -
 [Mathieu Bélanger](https://github.com/cicero-mt)
