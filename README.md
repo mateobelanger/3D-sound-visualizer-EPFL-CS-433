@@ -88,6 +88,16 @@ In the case of reaching the optional requirements, we will also include a method
 Our project originated from the idea of combining our passions for music and for computer science. In the context of computer graphics, this meant deconstructing an audio file using a Fourier transform and rendering a visual representation of the different frequencies. The end result is a web based animation of a pre-selected and pre-loaded mp3 file with cinematic bézier curve camera movement as well as free camera movement and play/pause functionality.
 
 ### Technical approach
+#### Radix-2 Cooley-Tuckey FFT
+
+#### Turn-table Camera
+
+#### Bezier Curves cinematic intro
+
+#### Preloading and reduced sampling
+
+#### Phong Illumination model
+
 A summary of your technical approach, techniques used, algorithms implemented, etc. (use references to papers or other resources for further detail). Highlight how your approach varied from the references used (did you implement a subset, or did you change or enhance anything), the unique decisions you made and why.
 A description of problems encountered and how you tackled them. Please also document any failed experiments/efforts you made.
 
@@ -95,7 +105,7 @@ A description of problems encountered and how you tackled them. Please also docu
 
 Your final images, animations, video of your system (whichever is relevant). You can include results that you think show off what you built but that you did not have time to go over on presentation day. If your project is amenable, consider implementing it in WebGL so that you can directly include a running demo in your final website-based report.
 
-[VIEW THE DEMO](./project/index.html)
+[TRY THE DEMO](./project/index.html)
 
 ### Contributions
 
