@@ -165,7 +165,7 @@ async function main() {
 		source.start();
 	}
 	
-	const URL = './audio_samples/fuya.mp3';
+	const URL = './audio_samples/mgmt.mp3';
 	const context = new AudioContext();
 
 	const response = await window.fetch(URL);
