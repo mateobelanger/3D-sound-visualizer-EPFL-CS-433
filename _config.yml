@@ -1,3 +1,5 @@
 theme: jekyll-theme-leap-day
 title: 3D Music Visualizer
 description: An EPFL CS-341 Final project
+plugins:
+  - jemoji
