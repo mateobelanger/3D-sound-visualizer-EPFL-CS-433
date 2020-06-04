@@ -13,7 +13,7 @@ async function main() {
 	const canvas_elem = document.getElementsByTagName('canvas')[0];
 	
 	const debug_text = document.getElementById('debug-text');
-	debug_text.textContent = "Please wait for the audio file to be loaded";
+	debug_text.textContent = "\t Please wait for the audio file to be loaded";
 
 	// Start downloads in parallel
 	const resources = {
