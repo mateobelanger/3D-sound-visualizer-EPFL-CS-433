@@ -103,8 +103,7 @@ The Milestone version of the project was having some synchronisation issues (sou
 
 #### Phong Illumination model
 
-A summary of your technical approach, techniques used, algorithms implemented, etc. (use references to papers or other resources for further detail). Highlight how your approach varied from the references used (did you implement a subset, or did you change or enhance anything), the unique decisions you made and why.
-A description of problems encountered and how you tackled them. Please also document any failed experiments/efforts you made.
+Reused and modified the implementation from 5th assigment (ex5_gpu_phong).
 
 ### Results
 
@@ -112,16 +111,15 @@ A description of problems encountered and how you tackled them. Please also docu
 <img src="https://github.com/cicero-mt/cicero-mt.github.io/blob/master/fuya_example.png?raw=true">
 </div>
 
-Your final images, animations, video of your system (whichever is relevant). You can include results that you think show off what you built but that you did not have time to go over on presentation day. If your project is amenable, consider implementing it in WebGL so that you can directly include a running demo in your final website-based report.
+Here's our final outputs, you can open the demo link to try the webgl demo or view a sample output for MGMT & C2C.
 
 [TRY THE DEMO](./project/index.html)
+[MGMT VIDE DEMO](https://drive.google.com/file/d/16hluQRvjTgDgwF3kLmah_8dkZ-hZflh5/view?usp=sharing)
 
 ### Contribution breakdown
 
-*Ulrich*: FFT algorithm, phong model, Bezier Curves
-
-*Mathieu*: Camera, Project updates & website, Codebase management, Performance issues, Final Video
-
+*Ulrich*: FFT algorithm, phong model, Bezier Curves, Project setup
+*Mathieu*: Camera, Project updates & website, Codebase management, Performance issues, Final Video & report
 *Evan*: Project setup, simulation controls, Performance issues & synchronization, pre-loading
 
 ## Ressources
@@ -129,7 +127,7 @@ Your final images, animations, video of your system (whichever is relevant). You
 * Course slides: The class concepts will be used so we will use the slides
 * The Web Audio API: provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more.
 * Previous assignments and their libraries (regl_1.3.13 & gl_matrix3.2.1)
-* Cooley–Tukey FFT algorithm [source](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm)
+* Cooley–Tukey FFT algorithm [pseudo-code](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm)
 * Github pages (for the reports)
 
 **Project developped by**
