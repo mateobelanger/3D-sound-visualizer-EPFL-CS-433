@@ -363,4 +363,3 @@ cam pos ${vec_to_string(camera_position)}
 }
 
 DOM_loaded_promise.then(main);
-

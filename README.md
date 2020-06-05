@@ -36,7 +36,7 @@ In the case of reaching the optional requirements, we will also include a method
 
 ## Milestone Report
 
-#### Accomplishments Summary
+### Accomplishments Summary
 
 * Started our project by using our progress from exercise 5.
 * Replaced the solar system with a grid of 16x16 cubes.
@@ -48,7 +48,7 @@ In the case of reaching the optional requirements, we will also include a method
 * Change the cube color based on the scale
 * Added bezier curve camera path.
 
-#### Preliminary Results
+### Preliminary Results
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/cicero-mt/cicero-mt.github.io/master/Milestone_Sound_Bars.png">
@@ -116,7 +116,8 @@ Your final images, animations, video of your system (whichever is relevant). You
 
 [TRY THE DEMO](./project/index.html)
 
-### Contributions
+### Contribution breakdown
+
 Ulrich: FFT algorithm, phong model, Bezier Curves
 
 Mathieu: Camera, Project updates & website, Codebase management, Performance issues, Final Video
