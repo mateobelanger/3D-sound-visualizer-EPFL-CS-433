@@ -118,11 +118,11 @@ Your final images, animations, video of your system (whichever is relevant). You
 
 ### Contribution breakdown
 
-Ulrich: FFT algorithm, phong model, Bezier Curves
+*Ulrich*: FFT algorithm, phong model, Bezier Curves
 
-Mathieu: Camera, Project updates & website, Codebase management, Performance issues, Final Video
+*Mathieu*: Camera, Project updates & website, Codebase management, Performance issues, Final Video
 
-Evan: Project setup, simulation controls, Performance issues & synchronization, pre-loading
+*Evan*: Project setup, simulation controls, Performance issues & synchronization, pre-loading
 
 ## Ressources
 
