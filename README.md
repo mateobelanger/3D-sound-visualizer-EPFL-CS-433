@@ -93,6 +93,8 @@ We started from a modified version of the 5th assigment (ex5_gpu_phong) as a bas
 
 Most common implementation of the FFT algorithm. It computes the discrete fourrier transform of a given wave using a divide and recombine recursive algorithm. While the implementation in JS is much less efficient than one in C++ or Web-assembly, we found that the performance were satisfying enough for the purpose of this project.
 
+To smoothen the animation we filtered te amplitude output of the FFT. Resulting in a slower "descent" of the cubes.
+
 #### Turn-table Camera & Bezier curves for cinematic intro
 
 The turntable camera was inspired and modified from the 4th assigment. We added a bezier path to circle around the scene before allowing the user to freely control the camera.
