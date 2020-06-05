@@ -121,8 +121,8 @@ Here's our final outputs, you can open the demo link to try the webgl demo or vi
 
 ### Contribution breakdown
 
-**Ulrich**: FFT algorithm, phong model, Bezier Curves, Project setup
-**Mathieu**: Camera, Project updates & website, Codebase management, Performance issues, Final Video & report
+**Ulrich**: FFT algorithm, phong model, Bezier Curves, Project setup <br>
+**Mathieu**: Camera, Project updates & website, Codebase management, Performance issues, Final Video & report <br>
 **Evan**: Project setup, simulation controls, Performance issues & synchronization, pre-loading
 
 ## Ressources
