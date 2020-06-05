@@ -115,11 +115,10 @@ Reused and modified the implementation from 5th assigment (ex5_gpu_phong).
 
 Here's our final outputs, you can open the demo link to try the webgl demo or view a sample output for MGMT & C2C.
 
-[TRY THE DEMO](./project/index.html) 
+<a href="./project/index.html" target="_blank">Try the webgl demo</a>
+<a href="./project/index.html](https://drive.google.com/file/d/16hluQRvjTgDgwF3kLmah_8dkZ-hZflh5/view?usp=sharing" target="_blank">Electric Feel - MGMT Sample output</a> 
+<a href="https://drive.google.com/file/d/1eszZ2RFqh5PNWKCELrlLzK64dJy9K2FS/view" target="_blank">FUYA - C2C Sample output</a>
 
-[Electric Fell - MGMT Sample output ](https://drive.google.com/file/d/16hluQRvjTgDgwF3kLmah_8dkZ-hZflh5/view?usp=sharing)
-
-[FUYA - C2C Sample output](https://drive.google.com/file/d/1eszZ2RFqh5PNWKCELrlLzK64dJy9K2FS/view)
 ### Contribution breakdown
 
 *Ulrich*: FFT algorithm, phong model, Bezier Curves, Project setup
