@@ -70,7 +70,6 @@ async function main() {
 
 	function update_cam_transform(p = undefined) {
 		let r = cam_distance_base * cam_distance_factor;
-		// Example camera matrix, looking along forward-X, edit this
 		if (!p) {
 			p = [-r* Math.cos(-cam_angle_y) * Math.cos(cam_angle_z), r * Math.cos(-cam_angle_y) * Math.sin(cam_angle_z), r * Math.sin(-cam_angle_y)];
 		}
@@ -79,8 +78,6 @@ async function main() {
 			[0, 0, 0], // view target point
 			[0, 0, 1], // up vector
 		);
-		// Store the combined transform in mat_world_to_cam
-		// mat_world_to_cam = A * B * ...
 		mat4_matmul_many(mat_world_to_cam, look_at);
 	}
 
@@ -332,21 +329,8 @@ async function main() {
 
 		// Calculate light position in camera frame
 		vec4.transformMat4(light_position_cam, light_position_world, mat_view);
-
-		// Calculate camera position and store it in `camera_position`, it will be needed for the billboard
 		{
-			/*
-			Camera is at [0, 0, 0] in camera coordinates.
-			mat_view is a transformation from world to camera coordinates.
-			The inverse of mat_view is a transformation from camera to world coordinates.
-			Transforming [0, 0, 0] from camera to world we obtain the world position of the camera.
-				cam_pos = mat_view^-1 * [0, 0, 0]^T
-			*/
 			const mat_camera_to_world = mat4.invert(mat4.create(), mat_view);
-
-			// Transform [0, 0, 0] from camera to world:
-			//const camera_position = vec3.transformMat4([0, 0, 0], [0, 0, 0], mat_view_invert);
-			// But the rotation and scale parts of the matrix do no affect [0, 0, 0] so, we can just get the translation, its cheaper:
 			mat4.getTranslation(camera_position, mat_camera_to_world);
 		}
 

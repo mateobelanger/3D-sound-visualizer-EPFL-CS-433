@@ -77,24 +77,29 @@ In the case of reaching the optional requirements, we will also include a method
 | 5 (22/05 -> 26/05) | :heavy_check_mark: Video creation |  |  Evan  |
 |                    | :heavy_check_mark: Website update |  |  Mathieu  |
 
-## Ressources
-
-* Course slides: The class concepts will be used so we will use the slides
-* The Web Audio API: provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio,       create audio visualizations, apply spatial effects (such as panning) and much more.
-* Previous assignments and their libraries (regl_1.3.13 & gl_matrix3.2.1)
-
 ## Final Report
-### Abstract 
+
+### Abstract
+
 Our project originated from the idea of combining our passions for music and for computer science. In the context of computer graphics, this meant deconstructing an audio file using a Fourier transform and rendering a visual representation of the different frequencies. The end result is a web based animation of a pre-selected and pre-loaded mp3 file with cinematic bézier curve camera movement as well as free camera movement and play/pause functionality.
 
 ### Technical approach
+
+#### Project setup
+
+We started from a modified version of the 5th assigment (ex5_gpu_phong) as a base for our project.
+
 #### Radix-2 Cooley-Tuckey FFT
 
-#### Turn-table Camera
+Most common implementation of the FFT algorithm. It computes the discrete fourrier transform of a given wave using a divide and recombine recursive algorithm. While the implementation in JS is much less efficient than one in C++ or Web-assembly, we found that the performance were satisfying enough for the purpose of this project.
 
-#### Bezier Curves cinematic intro
+#### Turn-table Camera & Bezier curves for cinematic intro
+
+The turntable camera was inspired and modified from the 4th assigment. We added a bezier path to circle around the scene before allowing the user to freely control the camera.
 
 #### Preloading and reduced sampling
+
+The Milestone version of the project was having some synchronisation issues (sound/animation). While isolating causes for this problem, we thought of pre-computing the fourrier analysis (at the lauch of the webpage) before playing the animation. This fixed the issue. It also permitted us to fix the sample rate for the analysis (previously it was bounded by the framerate).
 
 #### Phong Illumination model
 
@@ -103,13 +108,30 @@ A description of problems encountered and how you tackled them. Please also docu
 
 ### Results
 
+<div align="center">
+<img src="https://github.com/cicero-mt/cicero-mt.github.io/blob/master/fuya_example.png?raw=true">
+</div>
+
 Your final images, animations, video of your system (whichever is relevant). You can include results that you think show off what you built but that you did not have time to go over on presentation day. If your project is amenable, consider implementing it in WebGL so that you can directly include a running demo in your final website-based report.
 
 [TRY THE DEMO](./project/index.html)
 
 ### Contributions
+Ulrich: FFT algorithm, phong model, Bezier Curves
 
-**Project developped by** 
-[Evan Kirby McGregor](https://github.com/EKM224) - 
+Mathieu: Camera, Project updates & website, Codebase management, Performance issues, Final Video
+
+Evan: Project setup, simulation controls, Performance issues & synchronization, pre-loading
+
+## Ressources
+
+* Course slides: The class concepts will be used so we will use the slides
+* The Web Audio API: provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more.
+* Previous assignments and their libraries (regl_1.3.13 & gl_matrix3.2.1)
+* Cooley–Tukey FFT algorithm [source](https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm)
+* Github pages (for the reports)
+
+**Project developped by**
+[Evan Kirby McGregor](https://github.com/EKM224) -
 [Ulrich Dah](https://github.com/ulrichdah) -
 [Mathieu Bélanger](https://github.com/cicero-mt)
